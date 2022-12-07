@@ -1,0 +1,85 @@
+.App {
+  background-color: black;
+  color: white;
+}
+
+.App header {
+  margin-left: 3%;
+  margin-top: 1%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.APOD {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.APOD img {
+  border-radius: 3%;
+  overflow-x: auto;
+  width: 800px;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 2%;
+}
+
+.rect {
+  margin-top: 4%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  overflow-x: auto;
+}
+.rect1 {
+  background: rgb(28, 28, 28);
+  border-radius: 5%;
+  object-fit:fill;
+  object-position: center;
+  height: auto;
+  max-width: 600px;
+}
+
+.rect2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 200px;
+  background: rgb(28, 28, 28);
+  margin-bottom: 3%;
+  border-radius: 5%;
+}
+
+.txt {
+  color: rgb(179, 179, 179);
+  text-align: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: x-large;
+}
+
+.description {
+  font-size: large;
+  text-align: justify;
+  margin: 5%;
+  color: rgb(179, 179, 179);
+}
+
+.API {
+  width: 90%;
+  height: 20%;
+  background: rgb(28, 28, 28);
+  border-radius: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
